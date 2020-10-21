@@ -12,11 +12,8 @@ Dependencies:
 - MATLAB
 
 Instructions:
-- Run generatedata.m using MATLAB. This code calculates the reduced spectra of the included example images (5 per model, Q100, 256/768/1024 resolution) and 
-	fits the decay parameters to the spectra.
+- Run generatedata.m using MATLAB. This code calculates the reduced spectra of the included example images (5 per model, Q100, 256/768/1024 resolution) and fits the decay parameters to the spectra.
 
-- Run classify.m using MATLAB. The fit coefficients for a portion of the entire dataset are included in the folder Fits. The classifier outputs the overall classification
-	accuracy as well as the accuarcy for classifying one model vs. real images at a time. Slight discrepencies in the classification accuracies are seen since the 
-	dataset is reduced. 
+- Run classify.m using MATLAB. The fit coefficients for a portion of the entire dataset are included in the folder Fits. The classifier outputs the overall classification accuracy as well as the accuarcy for classifying one model vs. real images at a time. Slight discrepencies in the classification accuracies are seen since the dataset is reduced. 
 
 
